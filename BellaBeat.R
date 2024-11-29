@@ -14,8 +14,8 @@ library("janitor") # for cleaning data
 library("plotrix") #to plot in 3D
 
 #Load the data set
-dailyReport1<- read_csv("/Users/meme/Desktop/GOOGLE COURS/archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
-dailyReport2<- read_csv("/Users/meme/Desktop/GOOGLE COURS/archive (1)/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
+dailyReport1<- read_csv("archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
+dailyReport2<- read_csv("archive (1)/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
 
 #Data exploration
 glimpse(dailyReport1) #to summarize the data set
