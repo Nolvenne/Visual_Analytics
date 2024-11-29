@@ -17,10 +17,10 @@ library("plotrix") #to plot in 3D
 
 
 #load Dataset
-dailyActivity<- read_csv("/Users/meme/Desktop/GOOGLE COURS/archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
-hourlyIntensity<-read_csv("/Users/meme/Desktop/GOOGLE COURS/archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/hourlyIntensities_merged.csv")
-minuteSleep<-read.csv("/Users/meme/Desktop/GOOGLE COURS/archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/minuteSleep_merged.csv")
-weigthLogInfo<-read_csv("/Users/meme/Desktop/GOOGLE COURS/archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/weightLogInfo_merged.csv")
+dailyActivity<- read_csv("archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
+hourlyIntensity<-read_csv("archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/hourlyIntensities_merged.csv")
+minuteSleep<-read.csv("archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/minuteSleep_merged.csv")
+weigthLogInfo<-read_csv("archive (1)/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/weightLogInfo_merged.csv")
 
 #Explore dataset
 head(dailyActivity)
